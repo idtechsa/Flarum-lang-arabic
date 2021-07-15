@@ -1,0 +1,57 @@
+{
+    "name": "flarum-lang-ar/arabic",
+    "type": "flarum-extension",
+    "description": "Arabic language pack.",
+    "keywords": [
+        "locale"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/idtechsa/Flarum-lang-arabic/issues",
+        "source": "https://github.com/idtechsa/Flarum-lang-arabic"
+    },
+    "homepage": "https://github.com/idtechsa/",
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://flarum.org/donate"
+        }
+    ],
+    "authors": [
+        {
+            "name": "tolgaaaltas",
+            "homepage": "https://tolgaaltas.com/"
+        }
+    ],
+   "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "support": {
+        "issues": "https://github.com/idtechsa/Flarum-lang-arabic/issues",
+        "source": "https://github.com/idtechsa/Flarum-lang-arabic/"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.10.x-dev"
+        },
+        "authors": [
+            {
+                "name": "idtechsa",
+                "role": "Translator"
+            }
+        ],
+        "flarum-extension": {
+            "title": "Arabic",
+            "icon": {
+                "image": "core.png",
+                "backgroundColor": "#ffffff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "ar",
+            "title": "Arabic"
+        }
+    }
+}

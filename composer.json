@@ -44,7 +44,7 @@
         "flarum-extension": {
             "title": "Arabic",
             "icon": {
-                "image": "core.png",
+                "image": "icon.svg",
                 "backgroundColor": "#ffffff",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"

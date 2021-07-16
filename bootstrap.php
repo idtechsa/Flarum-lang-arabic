@@ -18,7 +18,7 @@ return function (Dispatcher $events) {
 	$assets->flushLocaleCss();
       $locales = app(LocaleManager::class);
 
-      if ($event->isForum() && $locales->getLocale() == "tr") {
+      if ($event->isForum() && $locales->getLocale() == "ar") {
            $event->addAssets([
               __DIR__ . '/less/forum/extension.less'
            ]);

@@ -1,5 +1,5 @@
 {
-    "name": "flarum-lang-ar/arabic",
+    "name": "flarumarabic/arabic",
     "type": "flarum-extension",
     "description": "Arabic language pack.",
     "keywords": [
@@ -14,12 +14,12 @@
     "funding": [
         {
             "type": "website",
-            "url": "https://flarum.org/donate"
+            "url": "https://github.com/idtechsa"
         }
     ],
     "authors": [
         {
-            "name": "tolgaaaltas",
+            "name": "idtechsa",
             "homepage": "https://tolgaaltas.com/"
         }
     ],

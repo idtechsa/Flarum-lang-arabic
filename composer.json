@@ -7,8 +7,8 @@
     ],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/idtechsa/Flarum-lang-arabic/issues",
-        "source": "https://github.com/idtechsa/Flarum-lang-arabic"
+        "issues": "https://github.com/idtechsa/flarumarabic/issues",
+        "source": "https://github.com/idtechsa/flarumarabic"
     },
     "homepage": "https://github.com/idtechsa/",
     "funding": [
@@ -28,8 +28,8 @@
     },
     "minimum-stability": "dev",
     "support": {
-        "issues": "https://github.com/idtechsa/Flarum-lang-arabic/issues",
-        "source": "https://github.com/idtechsa/Flarum-lang-arabic/"
+        "issues": "https://github.com/idtechsa/flarumarabic/issues",
+        "source": "https://github.com/idtechsa/flarumarabic/"
     },
     "extra": {
         "branch-alias": {

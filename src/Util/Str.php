@@ -1,6 +1,6 @@
 <?php
 
-namespace Flarumarabic\Langwithrtl\Util;
+namespace Flarumarabic\Arabic\Util;
 
 class Str
 {

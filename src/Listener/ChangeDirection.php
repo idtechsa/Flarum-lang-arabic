@@ -1,6 +1,6 @@
 <?php
 
-namespace Flarumarabic\Langwithrtl\Listener;
+namespace Flarumarabic\Arabic\Listener;
 
 use Flarum\Frontend\Document;
 use Flarum\Locale\LocaleManager;

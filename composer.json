@@ -23,14 +23,19 @@
             "homepage": "https://github.com/idtechsa"
         }
     ],
-   "require": {
-        "flarum/core": "^1.0.0"
-    },
-    "minimum-stability": "dev",
     "support": {
         "issues": "https://github.com/idtechsa/flarumarabic/issues",
         "source": "https://github.com/idtechsa/flarumarabic/"
     },
+   "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+		"psr-4": {
+			"Flarumarabic\\Arabic\\": "src/"
+		}
+	},
     "extra": {
         "branch-alias": {
             "dev-master": "1.10.x-dev"

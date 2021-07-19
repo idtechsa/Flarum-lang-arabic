@@ -1,4 +1,5 @@
 README
+
 Installation
 Install Manualy :
 
@@ -24,6 +25,8 @@ php flarum cache:clear
 ```
 
 This ext can do :
+
 Arabic translation.
+
 RTL switch.
 

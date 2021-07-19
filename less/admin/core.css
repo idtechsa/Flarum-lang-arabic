@@ -1,0 +1,211 @@
+@media (min-width: 992px) and (max-width: 1099px), (min-width: 1100px) {
+	.App-content .sideNavOffset {
+		margin-left: auto;
+		margin-right: 300px;
+	}
+
+
+
+	.App-nav .AdminNav .Dropdown-menu > li > a {
+		padding: 15px 45px 15px 15px;
+	}
+
+	.App-nav .AdminNav .Button-icon {
+		float: right;
+		margin-left: auto;
+		margin-right: -30px;
+	}
+	
+	.sideNav {
+    flex-shrink: 0;
+    margin-left: 0;
+	margin-right: 0;
+    }
+	
+	.App-nav {
+    width: 300px;
+    }
+}
+
+
+
+.Group--add {
+	margin-left: auto;
+	margin-right: 10px;
+}
+
+.PermissionGrid td,
+.PermissionGrid th {
+	text-align: right;
+}
+
+.PermissionGrid tbody th {
+	padding-right: 0;
+	padding-left: 50px;
+}
+
+.PermissionGrid tbody th .icon {
+	margin-right: auto;
+	margin-left: 5px;
+}
+
+.PermissionGrid tbody .Dropdown .Dropdown-toggle {
+	text-align: right;
+}
+
+.PermissionDropdown .Badge {
+	margin: -3px 0 -3px 3px;
+}
+
+.EditGroupModal .Badge {
+	margin-right: auto;
+	margin-left: 5px;
+}
+
+.EditGroupModal-delete {
+	float: left;
+}
+
+.ExtensionList > li {
+	float: right;
+	text-align: right;
+}
+
+.ExtensionListItem {
+	margin-right: auto;
+	margin-left: 15px;
+}
+
+.ExtensionListItem-controls {
+	float: left;
+	margin-right: auto;
+	margin-left: -5px;
+}
+
+.AppearancePage-colors-input input {
+	float: right;
+}
+
+.AppearancePage-colors-input input:first-child {
+	margin-right: auto;
+	margin-left: 2%;
+}
+
+.ExtensionList-Category {
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.StatusWidget>ul>li.item-tools {
+    float: left;
+    margin-right: 0;
+}
+
+.ExtensionListItem-Dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    left: 13px;
+	right: auto;
+    margin: 6px 5px;
+    position: absolute;
+}
+
+@media (min-width: 992px){
+.App-nav .AdminNav .Dropdown-menu>li .Button-label {
+    padding-right: 5px;
+    font-size: 14px;
+    font-weight: normal;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1099px), (min-width: 1100px){
+.App-nav .AdminNav .Dropdown-menu>li>a {
+    padding: 15px 15px 15px 45px;
+}
+}
+
+.ExtensionNavButton .Button-label {
+    display: inline-block;
+    max-width: calc(100% - 18px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    margin-right: 45px;
+}
+
+@media (max-width: 767px), (min-width: 768px) and (max-width: 991px){
+.App-nav .AdminNav .Dropdown-menu>li .ExtensionListTitle {
+    color: #6c7d93;
+    text-transform: uppercase;
+    margin: 25px 10px 10px 15px;
+}
+}
+
+.AdminHeader .icon {
+    margin-left: 15px;
+}
+
+@media (min-width: 992px){
+.App-nav .AdminNav .Dropdown-menu>li .ExtensionListTitle {
+    color: #6c7d93;
+    text-transform: uppercase;
+    margin: 25px 10px 8px 15px;
+}
+}
+
+.ExtensionInfo {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.ExtensionName {
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.ExtensionPage-headerTopItems, .ExtensionPage-permissions-headerTopItems {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.Button-icon {
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.ExtensionPage-header ul>li>.icon, .ExtensionPage-permissions-header ul>li>.icon {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.TagGroup>label {
+    margin-left: auto !important;
+    margin-right: 0;
+    float: right;
+}
+
+.TagIcon {
+    margin-left: 10px;
+    margin-right: 1px;
+}
+
+.TagGroup>label {
+    margin-left: auto !important;
+    margin-right: 0;
+    float: right;
+}
+
+.TagIcon {
+    margin-left: 10px;
+    margin-right: 1px;
+}
+
+@media (min-width: 992px){
+.App-nav {
+    width: 300px;
+}
+}

@@ -1,0 +1,36 @@
+flarum-subscriptions:
+    forum:
+        badge:
+            following_tooltip: Following
+            ignoring_tooltip: Ignoring
+        discussion_controls:
+            follow_button: Follow
+            unfollow_button: Unfollow
+            unignore_button: Unignore
+        following:
+            meta_title_text: Following
+        index:
+            following_link: Following
+        notifications:
+            new_post_text: '{username} posted'
+        settings:
+            follow_after_reply_label: 'Automatically follow discussions that I reply to'
+            notify_new_post_label: 'Someone posts in a discussion I''m following'
+        sub_controls:
+            follow_button: Follow
+            following_button: Following
+            following_text: 'Be notified of all replies.'
+            ignoring_button: Ignoring
+            ignoring_text: 'Never be notified. Hide from the discussion list.'
+            not_following_button: 'Not Following'
+            not_following_text: 'Be notified only when @mentioned.'
+            notify_alert_tooltip: 'Get a forum notification when there are new posts'
+            notify_email_tooltip: 'Get an email when there are new posts'
+    email:
+        new_post:
+            subject: '[New Post] {title}'
+            body: "Hey {recipient_display_name}!\n\n{poster_display_name} made a post in a discussion you're following: {title}.\n\nTo view the new activity, check out the following link:\n{url}\n\n---\n\n{content}\n\n---\n\nYou won't receive any more notifications about this discussion until you're up-to-date.\n"
+    ref:
+        follow: Follow
+        following: Following
+        ignoring: Ignoring

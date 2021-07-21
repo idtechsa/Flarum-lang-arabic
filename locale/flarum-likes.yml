@@ -1,0 +1,19 @@
+flarum-likes:
+    admin:
+        permissions:
+            like_posts_label: 'Like posts'
+    forum:
+        notifications:
+            others_text: '{count, plural, one {# other} other {# others}}'
+            post_liked_text: '{username} liked your post'
+        post:
+            like_link: Like
+            liked_by_self_text: '{users} like this.'
+            liked_by_text: '{count, plural, one {{users} likes this} other {{users} like this}}'
+            others_link: '{count, plural, one {# other} other {# others}}'
+            unlike_link: Unlike
+            you_text: You
+        post_likes:
+            title: 'Users Who Like This'
+        settings:
+            notify_post_liked_label: 'Someone likes one of my posts'
